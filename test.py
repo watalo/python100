@@ -1,6 +1,11 @@
-def check(x):
-    if x % 2 == 0:
-        return x
-lst = filter(check, range(1000,3001))
+x = input()
+lst = []
+try:
+    for i in range(1,5):
+        lst.append(x*i)
+    print(sum(map(int,lst)))
+except:
+    print('我只会算算数')
 
-print(lst)
+
+    
